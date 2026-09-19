@@ -48,7 +48,6 @@ body {
 
 .header {
   background-color: rgba(255, 255, 255, 0.92);
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -157,7 +156,7 @@ body {
   max-width: 500px;
 }
 
-.hero-cta-group {
+.hero-btn-group {
   display: flex;
   gap: 16px;
 }
@@ -203,7 +202,6 @@ body {
   border: 5px solid #073785;
   border-radius: 50%;
   overflow: hidden;
- 
   flex-shrink: 0;
   animation: fadeInSlideUp 1s ease-out forwards;
 }
@@ -222,7 +220,6 @@ body {
   border: 1px solid rgb(232, 235, 239);
   border-radius: var(--radius-xl);
   max-width: 900px;
-
   text-align: center;
 }
 
@@ -390,7 +387,6 @@ body {
 }
 
 .projects-grid {
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
@@ -698,7 +694,7 @@ body {
     max-width: 100%;
   }
 
-  .hero-cta-group {
+  .hero-btn-group {
     justify-content: center;
   }
 
