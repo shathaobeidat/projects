@@ -73,9 +73,10 @@ body {
 
 #fname, #lname { 
   background: var(--blue-gradient);
-  -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
   background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .nav-links {
